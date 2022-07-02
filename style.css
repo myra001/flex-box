@@ -1,0 +1,112 @@
+*{
+    margin:50;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 100%, 0.75%);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    }
+
+main{
+    width: 771px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 428px;
+    color: hsl(0, 0%, 95%);
+}
+
+.btn1{
+    color: hsl(31, 77%, 52%);
+}
+
+.first-content{
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+}
+.first-content h1{
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-style: bold;
+    font-size: 25px;
+}  
+.first-content p{
+    font-size: 15px;
+    padding: 10px;
+    letter-spacing: 1px;
+    line-height: 18px; 
+    font-size: 10px; 
+    margin-bottom: 40px; 
+}
+
+.btn2{
+    color: hsl(184, 100%, 22%);
+}
+
+.second-content{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;  
+}
+.second-content h1{
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-style: bold;
+    font-size: 25px; 
+}
+.second-content p{
+    font-size: 15px;
+    padding: 10px;
+    letter-spacing: 1px;
+    line-height: 18px; 
+    font-size: 10px; 
+    margin-bottom: 40px; 
+}
+
+.btn3{
+    color: hsl(179, 100%, 13%);
+}
+
+.third-content{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;  
+}
+.third-content h1{
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-style: bold;
+    font-size: 25px;
+}
+.third-content p{
+    font-size: 15px;
+    padding: 10px;
+    letter-spacing: 1px;
+    line-height: 18px; 
+    font-size: 10px; 
+    margin-bottom: 40px; 
+}
+
+
+button{
+   background-color: none;
+   text-decoration: transparent;
+   border: 2px solid transparent;
+   font-weight: bold;
+   padding: 13px 30px;
+   border-radius: 30px;
+   transition: .4s;
+   margin-top: 30px;
+   text-transform: capitalize;
+ }
+ button:hover{
+    background-color: transparent;
+   border: 2px solid   hsl(0, 0%, 95%);
+   cursor: pointer;
+   color: hsl(0, 0%, 95%);
+ }
+ 
